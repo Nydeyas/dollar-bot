@@ -36,7 +36,8 @@ async def collect_data() -> Tuple[List[str], List[str], List[Shop]]:
     shops = [s for s in active_data.keys()]
     categories = [c for c in list(active_data.values())[0]]
 
-    # await scrape_data(active_data)
+    # Run scripts that collects new data
+    await scrape_data(active_data)
 
     data = get_data_for_bot(shops, categories)
 
