@@ -1,4 +1,4 @@
-# dollarbot
+# pricebot
  Discord Bot that compares prices of electronics.
 
 # Requirements
